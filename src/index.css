@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Oswald&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+:root {
+  --terracota: #d15e40;
+  --pale-grey: #f5f6f7;
+  --white-70: rgba(255, 255, 255, 0.7);
+  --dark-blue-grey: #224259;
+  --black-50: rgba(0, 0, 0, 0.5);
+  --light-grey-blue: #a0c1d7;
+  --black: #000000;
+  --black-40: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  font-family: 'Karla', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 18px;
+  margin: 0;
+  padding:0;
+  width: 100%;
+}

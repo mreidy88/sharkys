@@ -1,0 +1,90 @@
+.barMenu h2 {
+  text-transform: uppercase;
+  color: var(--light-grey-blue);
+  text-align: center;
+  font-size: 36px;
+  margin-top: 1%;
+}
+
+.clickMenu p{
+  text-align: center;
+ font-size: 18px;
+}
+
+.clickMenu a {
+  font-family: Karla, sans-serif;
+  font-style: italic;
+  color: black;
+  padding-right: 10px;
+}
+
+.buttonMenu {
+    display:flex;
+    justify-content: space-evenly;
+    font-family: Oswald, sans-serif;
+
+}
+.nActive{
+    margin-bottom: 0;
+    background-color:transparent;
+    padding: 5px 10px 5px 10px;
+    transition: background-color 0.2s ease;
+    border: none;
+    font-style: bold;
+    font-size: 24px;
+}
+.buttonMenu button {
+    margin-bottom: 0;
+    width: 270px;
+    height: 66px;
+    border: none;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.active{
+  background-color: var(--terracota);
+  color: white;
+}
+
+.buttonMenu button:hover {
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:active{
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:focus{
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:target{
+    background-color: var(--terracota);
+    color: white;
+}
+.menuItems {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--pale-grey);
+}
+
+.menuList {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:26px;
+    padding-bottom: 75px;
+}
+
+@media only screen and (max-width: 415px) {
+
+    .buttonMenu button {
+        font-size: 18px;
+    }
+}
